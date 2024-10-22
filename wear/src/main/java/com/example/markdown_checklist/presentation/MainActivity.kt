@@ -8,6 +8,7 @@ package com.example.markdown_checklist.presentation
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -26,7 +27,7 @@ import androidx.wear.tooling.preview.devices.WearDevices
 import com.example.markdown_checklist.R
 import com.example.markdown_checklist.presentation.theme.Markdown_checklistTheme
 
-class MainActivity : ComponentActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         installSplashScreen()
 
